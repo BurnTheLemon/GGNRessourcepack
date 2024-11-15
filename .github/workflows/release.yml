@@ -23,11 +23,12 @@ jobs:
           zip -r RP.zip .
 
       # Create or update a release and upload the ZIP file
-      - name: Upload to GitHub Release
+      - name: Create or Update Release
         uses: ncipollo/release-action@v1
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
           release_name: Latest Release
           artifacts: RP.zip
           artifact_content_type: application/zip
+          overwrite: true  # Overwrite the existing release
