@@ -26,7 +26,7 @@ jobs:
       - name: Create or Update Release
         uses: ncipollo/release-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           tag: latest
           release_name: Latest Release
           artifacts: RP.zip
