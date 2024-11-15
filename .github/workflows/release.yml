@@ -6,29 +6,31 @@ on:
       - main
 
 permissions:
-  contents: write  # Ensures the correct permissions for the workflow.
+  contents: write
 
 jobs:
   zip-and-upload:
     runs-on: ubuntu-latest
 
     steps:
+      # Setup Node.js 20
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
       # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
       # Delete the existing tag if it exists
       - name: Delete Existing Tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git tag -d latest || true
           git push origin --delete latest || true
 
       # Recreate the tag
       - name: Recreate Tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git tag latest
           git push origin latest
