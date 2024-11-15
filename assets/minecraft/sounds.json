@@ -1,0 +1,11 @@
+{
+    "vineboom": {
+      "sounds": [
+        {
+          "name": "custom/vineboom", 
+          "stream": false            
+        }
+      ]
+    }
+  }
+  
