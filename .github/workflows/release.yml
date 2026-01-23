@@ -1,0 +1,34 @@
+name: Build and Release ZIP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # REQUIRED for releases
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify assets folder exists
+        run: |
+          test -d assets || (echo "assets/ folder missing" && exit 1)
+
+      - name: Create ZIP archive (assets only)
+        run: |
+          cd assets
+          zip -r ../resource-pack.zip .
+
+      - name: Create or Update GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Release
+          files: resource-pack.zip
+          make_latest: true
