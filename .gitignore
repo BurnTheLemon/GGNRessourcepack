@@ -1,0 +1,16 @@
+# GitHub / CI
+.github/
+
+# Git configuration files (optional)
+.gitattributes
+.gitmodules
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
