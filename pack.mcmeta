@@ -1,6 +1,7 @@
 {
-   "pack": {
-      "pack_format": 42,
-      "description": "§6GGN Additions! \n§7alpha v.1.5"
-   }
+  "pack": {
+   "description": "§6ZestKit - GGN Edition v1.1",
+    "min_format": 75,
+    "max_format": 78.1
+  }
 }
