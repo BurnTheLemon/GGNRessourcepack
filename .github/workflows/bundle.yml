@@ -1,30 +1,33 @@
-name: Build and Release Resource Pack
+name: Build and Release ZIP
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-release:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create ZIP from repository root
+      - name: Create ZIP archive (root contents only)
         run: |
-          zip -r ressource_pack.zip . \
+          zip -r resource-pack.zip assets pack.mcmeta pack.png *.png *.abc *.txt \
             -x ".git/*" \
                ".github/*"
 
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest      
-          name: Latest Resource Pack
-          files: ressource_pack.zip
+          tag_name: latest
+          name: Latest Release
+          files: resource-pack.zip
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
