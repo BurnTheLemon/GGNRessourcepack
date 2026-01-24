@@ -1,0 +1,46 @@
+name: Build and Release Minecraft Resource Pack
+
+on:
+  push:
+    branches:
+      - main  # change if your default branch is different
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up zip
+        run: |
+          ZIP_NAME="resourcepack.zip"
+          rm -f $ZIP_NAME
+          zip -r $ZIP_NAME . -x ".github/*" "*.zip"
+
+      - name: Create tag for release
+        id: tag
+        run: |
+          # Use commit SHA as unique tag
+          TAG_NAME="resourcepack-$(date +%Y%m%d%H%M%S)"
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: "Minecraft Resource Pack"
+          body: "Latest version of the resource pack."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload zip to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          files: resourcepack.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
