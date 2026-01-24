@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create ZIP from repo root contents
+      - name: Create ZIP from repository root
         run: |
           zip -r ressource_pack.zip . \
             -x ".git/*" \
@@ -28,4 +28,4 @@ jobs:
           tag_name: latest
           name: Latest Resource Pack
           files: ressource_pack.zip
-          make_latest: true
+          overwrite_files: true
