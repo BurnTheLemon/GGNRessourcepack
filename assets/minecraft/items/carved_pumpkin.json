@@ -63,7 +63,29 @@
       { "model": { "type": "minecraft:model", "model": "item/random_hat/traffic_cone/traffic_cone" }, "threshold": 53 },
       { "model": { "type": "minecraft:model", "model": "item/random_hat/unblocker/unblocker" }, "threshold": 54 },
       { "model": { "type": "minecraft:model", "model": "item/random_hat/western_hat/western_hat" }, "threshold": 55 },
-      { "model": { "type": "minecraft:model", "model": "item/random_hat/witch_hat/witch_hat" }, "threshold": 56 }
+      { "model": { "type": "minecraft:model", "model": "item/random_hat/witch_hat/witch_hat" }, "threshold": 56 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/altyn_helmet/altyn_helmet" }, "threshold": 57 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/apple/apple" }, "threshold": 58 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/apple_with_arrow/apple_with_arrow" }, "threshold": 59 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/arrow/arrow" }, "threshold": 60 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/balaklava/balaklava" }, "threshold": 61 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/bear_hat/bear_hat" }, "threshold": 62 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/beekeeper_mask/beekeeper_mask" }, "threshold": 63 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/cake/cake" }, "threshold": 64 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/cardboard_box/cardboard_box" }, "threshold": 65 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/cigarette/cigarette" }, "threshold": 66 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/cowboy_hat/cowboy_hat" }, "threshold": 67 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/crown/crown" }, "threshold": 68 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/disguise/disguise" }, "threshold": 69 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/diving_helmet/diving_helmet" }, "threshold": 70 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/elf_hat/elf_hat" }, "threshold": 71 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/frog/frog" }, "threshold": 72 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/gas_mask/gas_mask" }, "threshold": 73 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/graduation_cap/graduation_cap" }, "threshold": 74 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/guzzler_helmet/guzzler_helmet" }, "threshold": 75 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/headphones/headphones" }, "threshold": 76 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/kabuto/kabuto" }, "threshold": 77 },
+      { "model": { "type": "minecraft:model", "model": "item/more_random_hat/microphone/microphone" }, "threshold": 78 }
     ]
   }
 }
