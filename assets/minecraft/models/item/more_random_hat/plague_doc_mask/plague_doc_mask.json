@@ -1,7 +1,9 @@
 {
-	"texture_size": [32, 32],
+	"texture_size": [64, 64],
 	"textures": {
-		"1": "item/hat/more_random/plague_doc_mask"
+		"1": "item/hat/more_random/plague_doc_mask",
+		"particle": "item/hat/more_random/plague_doc_mask"
+
 	},
 	"elements": [
 		{
