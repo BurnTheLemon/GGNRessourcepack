@@ -21,6 +21,20 @@
           "model": "item/paper/no_snitch_vert"
         },
         "threshold": 2
+      },
+            {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paper/no_snatch"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paper/no_snatch_vert"
+        },
+        "threshold": 4
       }
     ]
   }
