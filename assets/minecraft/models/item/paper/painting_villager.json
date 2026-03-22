@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/painting/download",
+		"particle": "item/painting/download"
+	},
+	"elements": [
+		{
+			"from": [16, -15.5, -16],
+			"to": [16, 16.5, 32],
+			"rotation": {"x": 0, "y": 0, "z": -90, "origin": [16, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 0.75, 0.75], "texture": "#missing"},
+				"south": {"uv": [2.25, 0.25, 2.75, 0.75], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#missing"},
+				"down": {"uv": [5.25, 0.25, 5.75, 0.75], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -89, 95],
+			"translation": [0, 0, -14.75]
+		},
+		"fixed": {
+			"rotation": [0, -90, 90],
+			"translation": [-80, 2, -22.75],
+			"scale": [3, 3, 4]
+		}
+	}
+}

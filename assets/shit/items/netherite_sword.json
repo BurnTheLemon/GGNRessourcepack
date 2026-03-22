@@ -1,0 +1,846 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/netherite_sword"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/pheonixgrace"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/abominablegreatsaber"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/abominableblade"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/abominablescythe"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/aciddemon"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/amethyst_shuriken"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/ancient_royal_great_sword"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/aquantic_sacred_blade"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/aquantictrident"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/ashura_blade"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/bloodedge"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/bloodydeath"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cariansword"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/chrono_blade"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/corruptedmythicblade"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/creationsplitter"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/crescentrose"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cyberkatana"
+        },
+        "threshold": 18
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cybermantisblade"
+        },
+        "threshold": 19
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cybernetickatana"
+        },
+        "threshold": 20
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cyberneticknife"
+        },
+        "threshold": 21
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cyberneticsawblade"
+        },
+        "threshold": 22
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/cybersword"
+        },
+        "threshold": 23
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/dainsleif"
+        },
+        "threshold": 24
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/dark_blade"
+        },
+        "threshold": 25
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/dark_cleaver"
+        },
+        "threshold": 26
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/death_knight_dagger"
+        },
+        "threshold": 27
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/death_knight_sword"
+        },
+        "threshold": 28
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demigodsunholyhalberd"
+        },
+        "threshold": 29
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demigodsunholyblade"
+        },
+        "threshold": 30
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demonicblade"
+        },
+        "threshold": 31
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demoniccleaver"
+        },
+        "threshold": 32
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demonlordsgreataxe"
+        },
+        "threshold": 33
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/demonlordsword"
+        },
+        "threshold": 34
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/divine_justice"
+        },
+        "threshold": 35
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/divine_reaper"
+        },
+        "threshold": 36
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/divinepunisher"
+        },
+        "threshold": 37
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/divineaxerhitta"
+        },
+        "threshold": 38
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/dragonslayingblade"
+        },
+        "threshold": 39
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/edgeoftheastralplane"
+        },
+        "threshold": 40
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/epicsword"
+        },
+        "threshold": 41
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/estoc"
+        },
+        "threshold": 42
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/fallengodspear"
+        },
+        "threshold": 43
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/fallengodsword"
+        },
+        "threshold": 44
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/floral_longsword"
+        },
+        "threshold": 45
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/floral_sabre"
+        },
+        "threshold": 46
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/forest_guardian_glaive"
+        },
+        "threshold": 47
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/frostaxe"
+        },
+        "threshold": 48
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/frostblade"
+        },
+        "threshold": 49
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/frostscythe"
+        },
+        "threshold": 50
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/greenscythe"
+        },
+        "threshold": 51
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/herosword"
+        },
+        "threshold": 52
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/holymoonlightsword"
+        },
+        "threshold": 53
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/hornetsneedle"
+        },
+        "threshold": 54
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/jadehalberd"
+        },
+        "threshold": 55
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/katana"
+        },
+        "threshold": 56
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/legendarysword"
+        },
+        "threshold": 57
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/longsword"
+        },
+        "threshold": 58
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/masamune"
+        },
+        "threshold": 59
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/mjolnir"
+        },
+        "threshold": 60
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/moltenblade"
+        },
+        "threshold": 61
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/moltensword"
+        },
+        "threshold": 62
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/muramasa"
+        },
+        "threshold": 63
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/mysticalspellblade"
+        },
+        "threshold": 64
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/mythicblade"
+        },
+        "threshold": 65
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/partisan"
+        },
+        "threshold": 66
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/pharaohs_treasure"
+        },
+        "threshold": 67
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/powerfusehammer"
+        },
+        "threshold": 68
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/powerfusesword"
+        },
+        "threshold": 69
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/riversofblood"
+        },
+        "threshold": 70
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/royalchakram"
+        },
+        "threshold": 71
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/royalrapier"
+        },
+        "threshold": 72
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sabre"
+        },
+        "threshold": 73
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sculkcleaver"
+        },
+        "threshold": 74
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/scissorblade"
+        },
+        "threshold": 75
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sculkscythe"
+        },
+        "threshold": 76
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sculksword"
+        },
+        "threshold": 77
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/silverine_blade"
+        },
+        "threshold": 78
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sentinels_will"
+        },
+        "threshold": 79
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soul_devourer"
+        },
+        "threshold": 80
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soul_collector"
+        },
+        "threshold": 81
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/souledge"
+        },
+        "threshold": 82
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soulclaws"
+        },
+        "threshold": 83
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/steelsword"
+        },
+        "threshold": 84
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soulharvester"
+        },
+        "threshold": 85
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/tengensblade"
+        },
+        "threshold": 86
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/stop_sign"
+        },
+        "threshold": 87
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/sunbreak"
+        },
+        "threshold": 88
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/thunderbringer"
+        },
+        "threshold": 89
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/terrablade"
+        },
+        "threshold": 90
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/thousanddemondaggers"
+        },
+        "threshold": 91
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/yoru"
+        },
+        "threshold": 92
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/toxic_longsword"
+        },
+        "threshold": 93
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/vampiricneedle"
+        },
+        "threshold": 94
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/wakizashi"
+        },
+        "threshold": 95
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/whisperwind"
+        },
+        "threshold": 96
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/wickpiercer"
+        },
+        "threshold": 97
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/thunderbrand"
+        },
+        "threshold": 98
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/watcher_claymore"
+        },
+        "threshold": 99
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/watching_warglaive"
+        },
+        "threshold": 100
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/waxweaver"
+        },
+        "threshold": 101
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/stars_edge"
+        },
+        "threshold": 102
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/stormbringer"
+        },
+        "threshold": 103
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/storms_edge"
+        },
+        "threshold": 104
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/ribboncleaver"
+        },
+        "threshold": 105
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/righteous_relic"
+        },
+        "threshold": 106
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soulrender"
+        },
+        "threshold": 107
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/soulstealer"
+        },
+        "threshold": 108
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/enigma"
+        },
+        "threshold": 109
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/hearthflame"
+        },
+        "threshold": 110
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/icewhisper"
+        },
+        "threshold": 111
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/magiscythe"
+        },
+        "threshold": 112
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/arcanethyst"
+        },
+        "threshold": 113
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/awakened_lichblade"
+        },
+        "threshold": 114
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/bramblethorn"
+        },
+        "threshold": 115
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/brimstone_claymore"
+        },
+        "threshold": 116
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/emberblade"
+        },
+        "threshold": 117
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/excalibur"
+        },
+        "threshold": 118
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "shit:item/requiem_of_hell"
+        },
+        "threshold": 119
+      }
+    ]
+  }
+}

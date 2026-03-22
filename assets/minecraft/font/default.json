@@ -1,6 +1,13 @@
 {
     "providers": [
         {
+            "type": "bitmap",
+            "file": "minecraft:custom/emoji/tiny_agnes.png",
+            "ascent": 10,
+            "height": 10,
+            "chars": ["\uE005"]
+        },
+        {
             "type": "space",
             "advances": {
                 "󎀀": -8192,

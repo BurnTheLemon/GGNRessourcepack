@@ -6,6 +6,14 @@
           "stream": false            
         }
       ]
+    },
+    "cigaret": {
+      "sounds": [
+        {
+          "name": "custom/cigaret", 
+          "stream": false            
+        }
+      ]
     }
   }
   

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:magmerite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:magmerite"
+      }
+    ]
+  }
+}
