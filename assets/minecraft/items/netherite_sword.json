@@ -9,11 +9,27 @@
     },
     "entries": [
       {
+        "threshold": 1,
         "model": {
-          "type": "minecraft:model",
-          "model": "item/sword/amethyst_sword"
-        },
-        "threshold": 1
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "item/sword/amethyst_sword",
+              "tints": [
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 0,
+                  "default": 16777215
+                }
+              ]
+            },
+            {
+              "type": "minecraft:model",
+              "model": "item/sword/amethyst_sword_emissive"
+            }
+          ]
+        }
       },
       {
         "model": {
