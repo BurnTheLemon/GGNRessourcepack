@@ -329,7 +329,15 @@
       { "model": { "type": "minecraft:model", "model": "item/hat3/witch_hats/aquatic_witch_hat" }, "threshold": 319 },
       { "model": { "type": "minecraft:model", "model": "item/hat3/witch_hats/celestial_witch_hat" }, "threshold": 320 },
       { "model": { "type": "minecraft:model", "model": "item/hat3/witch_hats/magma_witch_hat" }, "threshold": 321 },
-      { "model": { "type": "minecraft:model", "model": "item/hat3/witch_hats/nature_witch_hat" }, "threshold": 322 }
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/claret_hat" }, "threshold": 322 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/decorated_hat" }, "threshold": 323 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/ender_hat" }, "threshold": 324 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/ender_hat_e" }, "threshold": 325 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/gray_hat" }, "threshold": 326 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/inventors_hat" }, "threshold": 327 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/regular_hat" }, "threshold": 328 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/straw_hat" }, "threshold": 329 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/top_hat" }, "threshold": 330 }
     ]
   }
 }

@@ -1,0 +1,141 @@
+{
+	"credit": "Made by OnixTheCat",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "item/armor/not_enough_hats/straw_hat",
+		"particle": "item/armor/not_enough_hats/straw_hat"
+	},
+	"elements": [
+		{
+			"name": "hat",
+			"from": [3, 0, 3],
+			"to": [13, 4, 13],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 5, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 2.5, 2.5, 3.5], "texture": "#0"},
+				"south": {"uv": [7.5, 2.5, 10, 3.5], "texture": "#0"},
+				"west": {"uv": [5, 2.5, 7.5, 3.5], "texture": "#0"},
+				"up": {"uv": [5, 2.5, 2.5, 0], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hat_l2",
+			"from": [2.75, -0.25, 2.75],
+			"to": [13.25, 4.25, 13.25],
+			"faces": {
+				"north": {"uv": [2.5, 3.5, 5, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 3.5, 2.5, 4.5], "texture": "#0"},
+				"south": {"uv": [7.5, 3.5, 10, 4.5], "texture": "#0"},
+				"west": {"uv": [5, 3.5, 7.5, 4.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "brim",
+			"from": [-2, 0, -2],
+			"to": [18, 0, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, -2]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"up": {"uv": [0, 4.5, 5, 9.5], "texture": "#0"},
+				"down": {"uv": [0, 4.5, 5, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ribbon_part",
+			"from": [9.5, 1, 13.25],
+			"to": [12.5, 4, 13.25],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 2.5, 13.25]},
+			"faces": {
+				"south": {"uv": [5, 4.5, 5.75, 5.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ribbon_part",
+			"from": [3.5, 1, 13.25],
+			"to": [6.5, 4, 13.25],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 2.5, 13.25]},
+			"faces": {
+				"south": {"uv": [5.75, 4.5, 5, 5.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ribbon_part",
+			"from": [5, 2, 13.25],
+			"to": [7, 2, 17.25],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [6, 2, 13.25]},
+			"faces": {
+				"up": {"uv": [5.5, 5.5, 5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ribbon_part",
+			"from": [9, 2, 13.25],
+			"to": [11, 2, 17.25],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [10, 2, 13.25]},
+			"faces": {
+				"up": {"uv": [5, 5.5, 5.5, 6.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67.5, 45, 0],
+			"translation": [0, 1.25, 1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67.5, 45, 0],
+			"translation": [0, 1.25, 1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 5.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 5.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [35, 135, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, 14, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -8]
+		}
+	},
+	"groups": [
+		{
+			"name": "Hat",
+			"origin": [5.5, 3.5, 3],
+			"color": 0,
+			"children": [
+				0, 1, 2,
+				{
+					"name": "ribbon",
+					"origin": [7, 2.5, 13.25],
+					"color": 0,
+					"children": [3, 4, 5, 6]
+				}
+			]
+		}
+	]
+}
