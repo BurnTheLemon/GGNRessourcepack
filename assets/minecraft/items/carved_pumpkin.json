@@ -337,7 +337,8 @@
       { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/inventors_hat" }, "threshold": 327 },
       { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/regular_hat" }, "threshold": 328 },
       { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/straw_hat" }, "threshold": 329 },
-      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/top_hat" }, "threshold": 330 }
+      { "model": { "type": "minecraft:model", "model": "item/hat3/not_enough_hats/top_hat" }, "threshold": 330 },
+      { "model": { "type": "minecraft:model", "model": "item/hat3/sprout/sprout" }, "threshold": 331 }
     ]
   }
 }
