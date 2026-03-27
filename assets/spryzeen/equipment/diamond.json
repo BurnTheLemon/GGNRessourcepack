@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "spryzeen:diamond"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "spryzeen:diamond"
+      }
+    ]
+  }
+}

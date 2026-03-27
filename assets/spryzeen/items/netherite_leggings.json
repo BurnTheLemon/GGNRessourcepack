@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_quartz_trim"
+        },
+        "when": "spryzeen:quartz"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_iron_trim"
+        },
+        "when": "spryzeen:iron"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_netherite_trim"
+        },
+        "when": "spryzeen:netherite"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_redstone_trim"
+        },
+        "when": "spryzeen:redstone"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_copper_trim"
+        },
+        "when": "spryzeen:copper"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_gold_trim"
+        },
+        "when": "spryzeen:gold"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_emerald_trim"
+        },
+        "when": "spryzeen:emerald"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_netherite_trim"
+        },
+        "when": "spryzeen:netherite"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_lapis_trim"
+        },
+        "when": "spryzeen:lapis"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_amethyst_trim"
+        },
+        "when": "spryzeen:amethyst"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/netherite_leggings_resin_trim"
+        },
+        "when": "spryzeen:resin"
+      }
+    ],
+    "fallback": {
+      "type": "spryzeen:model",
+      "model": "spryzeen:item/netherite_leggings"
+    },
+    "property": "spryzeen:trim_material"
+  }
+}

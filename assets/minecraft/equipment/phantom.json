@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:phantom"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:phantom"
+      }
+    ]
+  }
+}

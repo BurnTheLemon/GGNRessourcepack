@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_quartz_trim"
+        },
+        "when": "spryzeen:quartz"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_iron_trim"
+        },
+        "when": "spryzeen:iron"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_netherite_trim"
+        },
+        "when": "spryzeen:netherite"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_redstone_trim"
+        },
+        "when": "spryzeen:redstone"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_copper_trim"
+        },
+        "when": "spryzeen:copper"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_gold_trim"
+        },
+        "when": "spryzeen:gold"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_emerald_trim"
+        },
+        "when": "spryzeen:emerald"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_diamond_trim"
+        },
+        "when": "spryzeen:diamond"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_lapis_trim"
+        },
+        "when": "spryzeen:lapis"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_amethyst_trim"
+        },
+        "when": "spryzeen:amethyst"
+      },
+      {
+        "model": {
+          "type": "spryzeen:model",
+          "model": "spryzeen:item/diamond_boots_resin_trim"
+        },
+        "when": "spryzeen:resin"
+      }
+    ],
+    "fallback": {
+      "type": "spryzeen:model",
+      "model": "spryzeen:item/diamond_boots"
+    },
+    "property": "spryzeen:trim_material"
+  }
+}
