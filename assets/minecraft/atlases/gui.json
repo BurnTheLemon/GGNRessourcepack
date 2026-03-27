@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "prefix": "mob_effect/",
+      "source": "mob_effect"
+    }
+  ]
+}
