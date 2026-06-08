@@ -23,10 +23,6 @@
                   "default": 16777215
                 }
               ]
-            },
-            {
-              "type": "minecraft:model",
-              "model": "item/sword/amethyst_sword_emissive"
             }
           ]
         }

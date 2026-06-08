@@ -1,7 +1,6 @@
 {
   "parent": "minecraft:item/handheld_mace",
   "textures": {
-    "layer0": "minecraft:item/sword/amethyst_sword",
-    "tintindex": 0
+    "layer0": "minecraft:item/sword/amethyst_sword"
   }
 }
