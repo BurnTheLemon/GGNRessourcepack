@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ksepsp:item/trash_bag_item_open_back"
+    },
+	"display": {
+		"gui": {
+			"translation": [0, 0, -5]
+		}
+	}
+}

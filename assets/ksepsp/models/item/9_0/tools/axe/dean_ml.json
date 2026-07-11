@@ -1,0 +1,6 @@
+{
+	"parent": "ksepsp:item/9_0/tools/axe/guitar",
+	"textures": {
+		"layer0": "ksepsp:item/dean_ml"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/poisonous_potato"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/poisonous_potato/moldy_bread" }, "threshold": 1 }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/pumpkin_pie"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/pumpkin_pie/cheese" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/pumpkin_pie/cheese_head" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/pumpkin_pie/cherry_pie" }, "threshold": 3 }
+    ]
+  }
+}

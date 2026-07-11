@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/cooked_chicken"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_chicken/cheese_shawarma" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_chicken/garlic_shawarma" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_chicken/shawarma" }, "threshold": 3 }
+    ]
+  }
+}

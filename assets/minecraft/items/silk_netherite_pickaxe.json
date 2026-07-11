@@ -1,0 +1,15 @@
+{
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "item/netherite_pickaxe_base"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "item/silk_overlay"
+            }
+          ]
+        }
+      }

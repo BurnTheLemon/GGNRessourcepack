@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/bread"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/buterbrod" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/galets" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/honey_sandwich" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/piece_of_bread" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/sandwich" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/ham_sandwich" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/talking_buterbrod" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/toast" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/bread/pizza_slice" }, "threshold": 9 },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/bread/pizza"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/bread/pizza_item"
+          }
+        }
+      }
+    ]
+  }
+}

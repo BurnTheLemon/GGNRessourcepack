@@ -1,0 +1,2601 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/potion",
+      "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": -13083194
+      }
+    ]
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/adrenaline1"
+                    }
+                  },
+                  {
+                    "threshold": 9,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/adrenaline2"
+                    }
+                  },
+                  {
+                    "threshold": 18,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/adrenaline3"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/medicine/adrenaline"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/adrenaline_item"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/syringe1",
+                      "tints": [
+                        {
+                          "type": "minecraft:potion",
+                          "default": 3628228
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 9,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/syringe2",
+                      "tints": [
+                        {
+                          "type": "minecraft:potion",
+                          "default": 3628228
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 18,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/syringe3",
+                      "tints": [
+                        {
+                          "type": "minecraft:potion",
+                          "default": 3628228
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/medicine/syringe",
+                  "tints": [
+                    {
+                      "type": "minecraft:potion",
+                      "default": 3628228
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/syringe_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/bandage"
+                    }
+                  },
+                  {
+                    "threshold": 7,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/bandage1"
+                    }
+                  },
+                  {
+                    "threshold": 12,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/bandage2"
+                    }
+                  },
+                  {
+                    "threshold": 17,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/bandage3"
+                    }
+                  },
+                  {
+                    "threshold": 22,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/medicine/bandage"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/medicine/bandage_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/bandage_item"
+          }
+        }
+      },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/potions/medicine/morphine" }, "threshold": 4 },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/potions/medicine/capsules",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3628228
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/potions/medicine/pills",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3628228
+            }
+          ]
+        }
+      },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/potions/medicine/tablets" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/potions/medicine/antibiotic" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/potions/medicine/immunity_booster" }, "threshold": 9 },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/container/jar",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 3628228
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/container/jar_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/shot",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 3628228
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/shot_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/ale"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/ale_item"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/beer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/beer_item"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/glass_of_beer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/glass_of_beer_item"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/dark_beer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/dark_beer_item"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/mead"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/mead_item"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/mug_of_ale"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/mug_of_ale_item"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/mug_of_beer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/mug_of_beer_item"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/mug_of_dark_beer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/mug_of_dark_beer_item"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/glass_of_limoncello"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/glass_of_limoncello_item"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/glass_of_liqueur"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/glass_of_liqueur_item"
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/limoncello"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/limoncello_item"
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/liqueur"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/liqueur_item"
+          }
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/medicine/panacea"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/panacea_item"
+          }
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/absinth"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/absinth_item"
+          }
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/alcohol"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/alcohol_item"
+          }
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/decanter_with_vodka"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/decanter_with_vodka_item"
+          }
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/glass_of_absinth"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/glass_of_absinth_item"
+          }
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tincture/hawthorn_tincture"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tincture/hawthorn_tincture_item"
+          }
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/moonshine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/moonshine_item"
+          }
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/moonshine_shot"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/moonshine_shot_item"
+          }
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tincture/syrup"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tincture/syrup_item"
+          }
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tincture/tincture"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tincture/tincture_item"
+          }
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tincture/twyrine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tincture/twyrine_item"
+          }
+        }
+      },
+      {
+        "threshold": 35,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tincture/twyrine_shot"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tincture/twyrine_shot_item"
+          }
+        }
+      },
+      {
+        "threshold": 36,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/vodka"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/vodka_item"
+          }
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/vodka_shot"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/vodka_shot_item"
+          }
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/champagne"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/champagne_item"
+          }
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/glass_of_champagne"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/glass_of_champagne_item"
+          }
+        }
+      },
+      {
+        "threshold": 40,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/glass_of_red_wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/glass_of_red_wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 41,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/glass_of_wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/glass_of_wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 42,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/martini"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/martini_item"
+          }
+        }
+      },
+      {
+        "threshold": 43,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/old_wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/old_wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 44,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/portwein_777"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/portwein_777_item"
+          }
+        }
+      },
+      {
+        "threshold": 45,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/red_wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/red_wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 46,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/vermouth"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/vermouth_item"
+          }
+        }
+      },
+      {
+        "threshold": 47,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 48,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/beer/jug_of_mead"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/beer/jug_of_mead_item"
+          }
+        }
+      },
+      {
+        "threshold": 49,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/cider"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/cider_item"
+          }
+        }
+      },
+      {
+        "threshold": 50,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/glass_of_cider"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/glass_of_cider_item"
+          }
+        }
+      },
+      {
+        "threshold": 51,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/container/flask"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/container/flask_item"
+          }
+        }
+      },
+      {
+        "threshold": 52,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/whiskey/whiskey"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/whiskey/whiskey_item"
+          }
+        }
+      },
+      {
+        "threshold": 53,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/whiskey/glass_of_whiskey"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/whiskey/glass_of_whiskey_item"
+          }
+        }
+      },
+      {
+        "threshold": 54,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/brandy/cognac"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/brandy/cognac_item"
+          }
+        }
+      },
+      {
+        "threshold": 55,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/brandy/glass_of_cognac"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/brandy/glass_of_cognac_item"
+          }
+        }
+      },
+      {
+        "threshold": 56,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/berry_liqueur"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/berry_liqueur_item"
+          }
+        }
+      },
+      {
+        "threshold": 57,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/liqueur/glass_of_berry_liqueur"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/liqueur/glass_of_berry_liqueur_item"
+          }
+        }
+      },
+      {
+        "threshold": 58,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/brandy/brandy"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/brandy/brandy_item"
+          }
+        }
+      },
+      {
+        "threshold": 59,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/brandy/glass_of_brandy"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/brandy/glass_of_brandy_item"
+          }
+        }
+      },
+      {
+        "threshold": 60,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/jin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/jin_item"
+          }
+        }
+      },
+      {
+        "threshold": 61,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/chalice_with_wine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/chalice_with_wine_item"
+          }
+        }
+      },
+      {
+        "threshold": 62,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/rum"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/rum_item"
+          }
+        }
+      },
+      {
+        "threshold": 63,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/glass_of_rum"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/glass_of_rum_item"
+          }
+        }
+      },
+      {
+        "threshold": 64,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/whiskey/bourbon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/whiskey/bourbon_item"
+          }
+        }
+      },
+      {
+        "threshold": 65,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/whiskey/glass_of_bourbon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/whiskey/glass_of_bourbon_item"
+          }
+        }
+      },
+      {
+        "threshold": 66,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/golden_rum"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/golden_rum_item"
+          }
+        }
+      },
+      {
+        "threshold": 67,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/glass_of_golden_rum"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/glass_of_golden_rum_item"
+          }
+        }
+      },
+      {
+        "threshold": 68,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/tequila"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/tequila_item"
+          }
+        }
+      },
+      {
+        "threshold": 69,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/rum/tequila_shot"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/rum/tequila_shot_item"
+          }
+        }
+      },
+      {
+        "threshold": 70,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/sake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/sake_item"
+          }
+        }
+      },
+      {
+        "threshold": 71,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/cup_of_sake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/cup_of_sake_item"
+          }
+        }
+      },
+      {
+        "threshold": 72,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/wine/sakazuki_with_sake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/wine/sakazuki_with_sake_item"
+          }
+        }
+      },
+      {
+        "threshold": 73,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/cocktail/bandierra_rossa"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/cocktail/bandierra_rossa_item"
+          }
+        }
+      },
+      {
+        "threshold": 74,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/cocktail/revolution_fire"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/cocktail/revolution_fire_item"
+          }
+        }
+      },
+      {
+        "threshold": 75,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/cocktail/komsomolkas_tear"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/cocktail/komsomolkas_tear_item"
+          }
+        }
+      },
+      {
+        "threshold": 76,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/medicine/cologne"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/cologne_item"
+          }
+        }
+      },
+      {
+        "threshold": 77,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/energy_drink/energy_drink",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 3628228
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/energy_drink/energy_drink_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 78,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/vodka/shot_set",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 3628228
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/vodka/shot_set_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 79,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tea/pot_of_tea"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tea/pot_of_tea_item"
+          }
+        }
+      },
+      {
+        "threshold": 80,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:potion_contents",
+          "cases": [
+            {
+              "when": "water",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/tea_water"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/tea_water_item"
+                }
+              }
+            },
+            {
+              "when": "awkward",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/tea_awkward"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/tea_awkward_item"
+                }
+              }
+            },
+            {
+              "when": "mundane",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/tea_mundane"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/tea_mundane_item"
+                }
+              }
+            },
+            {
+              "when": "thick",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/tea_thick"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/tea_thick_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "thirdperson_righthand",
+                  "ground",
+                  "fixed",
+                  "firstperson_lefthand",
+                  "thirdperson_lefthand"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/tea",
+                  "tints": [
+                    {
+                      "type": "minecraft:potion",
+                      "default": 3628228
+                    }
+                  ]
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/potions/tea/tea_item",
+              "tints": [
+                {
+                  "type": "minecraft:potion",
+                  "default": 3628228
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "threshold": 81,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/tea/coffee_pot"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/tea/coffee_pot_item"
+          }
+        }
+      },
+      {
+        "threshold": 82,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:potion_contents",
+          "cases": [
+            {
+              "when": "water",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/coffee_water"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/coffee_water_item"
+                }
+              }
+            },
+            {
+              "when": "awkward",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/coffee_awkward"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/coffee_awkward_item"
+                }
+              }
+            },
+            {
+              "when": "mundane",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/coffee_mundane"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/coffee_mundane_item"
+                }
+              }
+            },
+            {
+              "when": "thick",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "thirdperson_righthand",
+                      "ground",
+                      "fixed",
+                      "firstperson_lefthand",
+                      "thirdperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/potions/tea/coffee_thick"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/coffee_thick_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "thirdperson_righthand",
+                  "ground",
+                  "fixed",
+                  "firstperson_lefthand",
+                  "thirdperson_lefthand"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/potions/tea/coffee",
+                  "tints": [
+                    {
+                      "type": "minecraft:potion",
+                      "default": 3628228
+                    }
+                  ]
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/potions/tea/coffee_item",
+              "tints": [
+                {
+                  "type": "minecraft:potion",
+                  "default": 3628228
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "threshold": 83,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/medicine/test_tube",
+                "tints": [
+                  {
+                    "type": "minecraft:potion",
+                    "default": 3628228
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/potions/medicine/test_tube_item",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 84,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:potion_contents",
+          "cases": [
+            {
+              "when": [
+                {
+                  "potion": "invisibility"
+                },
+                {
+                  "potion": "long_invisibility"
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/potions/invis_watch/invis_watch"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/potion",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": 3628228
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

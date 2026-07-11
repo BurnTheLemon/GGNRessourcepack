@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ksepsp:item/capsules",
+        "layer1": "ksepsp:item/capsules_overlay"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "ksepsp:item/passage_in_brick_wall"
+	}
+}

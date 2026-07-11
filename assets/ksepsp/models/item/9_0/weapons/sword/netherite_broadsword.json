@@ -1,0 +1,6 @@
+{
+    "parent": "ksepsp:item/source_models/2xhand",
+	"textures": {
+        "layer0": "ksepsp:item/netherite_broadsword"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/spectral_arrow"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/spectral_arrow/bullet_and_glowstone_dust" }, "threshold": 1 }
+    ]
+  }
+}

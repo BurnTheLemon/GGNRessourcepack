@@ -1,0 +1,669 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/writable_book"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/wooden_tablet_with_papers" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/pass" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/notes" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/document" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/letter_writable" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/written_book/old_letter_writable" }, "threshold": 6 },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/atlas"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/atlas_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/blueprint"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/blueprint_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/document_folder"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/document_folder_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/enchanted_book"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/enchanted_book_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/enchanter_tome"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/enchanter_tome_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/folder"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/folder_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/grimoire"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/grimoire_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/hologram_note"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/hologram_note_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/holy_bible"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/holy_bible_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/satanic_bible"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/satanic_bible_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/id"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/id_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/letter_in_bottle"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/letter_in_bottle_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/license"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/license_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/magazine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/magazine_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/manifesto"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/manifesto_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/medical_file"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/medical_file_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/newspaper"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/newspaper_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/necronomicon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/necronomicon_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/notepad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/notepad_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/old_book"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/old_book_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/passport"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/passport_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/passport_sssp"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/passport_sssp_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/pirate_map"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/pirate_map_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/scroll"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/scroll_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/written_book/vexing_chant"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/written_book/vexing_chant_left_hand"
+          }
+        }
+      }
+    ]
+  }
+}

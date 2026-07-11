@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:nothing"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:nothing"
+      }
+    ],
+    "wings": [
+      {
+        "texture": "minecraft:nothing",
+        "use_player_texture": true
+      }
+    ]
+  }
+}

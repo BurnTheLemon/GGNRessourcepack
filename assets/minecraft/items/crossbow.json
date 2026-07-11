@@ -1,0 +1,2158 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/crossbow"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/granade_launcher"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/scout_scat"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper_pulling"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper_pulling"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper_pulling"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_jumper"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher_pulling"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher_pulling"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher_pulling"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/crossbow/heavy_weapon/rocket_launcher"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/crossbow/shotgun/shotgun"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/arbal"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/crossbow/crussbow"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka_pulling"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka_pulling"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka_pulling"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/beggars_bazooka"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/battle_shot"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/cs23"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/db"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier_charge_fw"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/frontier"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/sawed"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/spas"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/shotgun/trench_gun"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/winchester"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/flare"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/bazaar_bargain"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/laser_musket"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/musket"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/lochnload"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/panzerfaust"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box_charge_loaded"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box_pulling"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box_pulling"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box_pulling"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/black_box"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake_pulling"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake_pulling"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake_pulling"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/heavy_weapon/quake"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98_arrow"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mauser98"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin_arrow"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/mosin"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/classic"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle_charge_fire"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/sniper_rifle"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk_charge_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/svk"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/awped"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss_charge_firework"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/rifle/vss"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/38sp"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/ambas"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/coltrev"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 35,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/gm_toolgun"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 36,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/magnum"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/nagan"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff_charge"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff_charge"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/revolver/olsheriff"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank_pulling_2"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/crossbow/single_shot/trank"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/cooked_beef"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_beef/buffalo_steak" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_beef/burger" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_beef/buzuluks_sausage" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/cooked_beef/ender_steak" }, "threshold": 4 }
+    ]
+  }
+}

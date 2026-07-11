@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/iron_axe"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/iron_battle_hammer" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/iron_spear" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/iron_halberd" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/axeblade" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/axe_of_thousand_metals" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/battle_axe" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/chainsaw" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/crash_axe" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/fire_axe" }, "threshold": 9 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/fortune_spear" }, "threshold": 10 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/whisper_of_death" }, "threshold": 11 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/4_non_blondes" }, "threshold": 12 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/acoustic_guitar" }, "threshold": 13 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/balalaika" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/banjo" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/big_balalaika" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/classical_guitar" }, "threshold": 17 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/curie" }, "threshold": 18 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/dean_ml" }, "threshold": 19 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/the_true_axe" }, "threshold": 20 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/ural" }, "threshold": 21 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/headtaker" }, "threshold": 22 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/highland_axe" }, "threshold": 23 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/infested_spear" }, "threshold": 24 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/lollichop" }, "threshold": 25 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/poleaxe" }, "threshold": 26 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/amputator" }, "threshold": 27 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/bonesaw" }, "threshold": 28 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/jigsaw" }, "threshold": 29 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/saw" }, "threshold": 30 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/bone_scythe" }, "threshold": 31 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/harvest_scythe" }, "threshold": 32 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/scythe" }, "threshold": 33 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/whirlwind" }, "threshold": 34 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/ubersaw" }, "threshold": 35 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/axe/vita_saw" }, "threshold": 36 }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"parent":	"ksepsp:item/9_0/furniture/furniture/mirror",
+	"texture_size": [
+		32,
+		32
+	],
+	"textures": {
+		"0": "ksepsp:item/broken_mirror",
+		"particle": "ksepsp:item/broken_mirror"
+	}
+}

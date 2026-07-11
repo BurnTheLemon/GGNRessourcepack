@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ksepsp:item/test_tube",
+        "layer1": "ksepsp:item/test_tube_overlay"
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "ksepsp:item/quiver_item_open_front"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 0, 1]
+		}
+	}
+}

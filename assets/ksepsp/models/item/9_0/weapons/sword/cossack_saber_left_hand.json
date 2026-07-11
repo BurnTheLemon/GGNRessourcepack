@@ -1,0 +1,6 @@
+{
+	"parent": "ksepsp:item/source_models/4xhand",
+	"textures": {
+		"layer0": "ksepsp:item/cossack_saber_left_hand"
+	}
+}

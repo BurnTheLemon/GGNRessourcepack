@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/shulker_box"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/ammo_box" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/small_ammo_box" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/briefcase" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/case" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/diplomat" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/metal_case" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/suitcase" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/handbag" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/hiking_backpack" }, "threshold": 9 },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/shulker_box/sport_bag"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/shulker_box/sport_bag_left_hand"
+          }
+        }
+      },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/big_present" }, "threshold": 11 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/present" }, "threshold": 12 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/toolbox" }, "threshold": 13 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/parcel" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/medkit" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/cigarette_carton" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/shulker_box/sport_bag_with_money" }, "threshold": 17 }
+    ]
+  }
+}

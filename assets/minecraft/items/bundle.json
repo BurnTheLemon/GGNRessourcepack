@@ -1,0 +1,643 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/bundle"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/cloche"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:bundle/has_selected_item",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/other/bundle/cloche_open_back"
+                    },
+                    {
+                      "type": "minecraft:bundle/selected_item"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/cloche_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/cloche_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/pack_of_cigarettes"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/pack_of_cigarettes_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/pack_of_cigarettes_item_open_front"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/pack_of_cigarettes_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/cigarette_case"
+              }
+            },
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/cigarette_case_left_hand"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/cigarette_case_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/cigarette_case_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/book_with_recess"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:bundle/has_selected_item",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/other/bundle/book_with_recess_item_open_back"
+                    },
+                    {
+                      "type": "minecraft:bundle/selected_item"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/book_with_recess_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/book_with_recess_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/bindle"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/bindle_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/bindle_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/trash_bag"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/trash_bag_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/trash_bag_item_open_front"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/trash_bag_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/medpack"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/medpack_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/medpack_item_open_front"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/medpack_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/pizza_box"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:bundle/has_selected_item",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/other/bundle/pizza_box_item_open_back"
+                    },
+                    {
+                      "type": "minecraft:bundle/selected_item"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/pizza_box_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/pizza_box_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/alien_pizza_box"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:bundle/has_selected_item",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/other/bundle/alien_pizza_box_item_open_back"
+                    },
+                    {
+                      "type": "minecraft:bundle/selected_item"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/alien_pizza_box_item"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/alien_pizza_box_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/wallet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/wallet_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/wallet_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/backpack"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/backpack_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/backpack_item_open_front"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/backpack_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/quiver"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:bundle/has_selected_item",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/quiver_item_open_back"
+                },
+                {
+                  "type": "minecraft:bundle/selected_item"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/bundle/quiver_item_open_front"
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/other/bundle/quiver_item"
+            }
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:bundle/has_selected_item",
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/matchbox_item_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/matchbox_item"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:bundle/has_selected_item",
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/bundle/palette_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/bundle/palette"
+          }
+        }
+      }
+    ]
+  }
+}

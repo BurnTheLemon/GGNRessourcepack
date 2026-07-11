@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/apple"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/adjika" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/banana" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/candy_apple" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/honey_candy_apple" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/pickled_tomatoes" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/apple/tomato" }, "threshold": 6 }
+    ]
+  }
+}

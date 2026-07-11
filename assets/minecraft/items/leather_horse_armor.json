@@ -1,0 +1,1370 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/leather_horse_armor",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/acoustic_electric_guitar",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/bass",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/explorer",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/firebird",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/flying_v",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/headless_guitar",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/les_paul",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/mockingbird",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/rr",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/sg",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/star",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/stratocaster",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/telecaster",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/warlock",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/rolled_up_stained_umbrella",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/stained_striped_umbrella",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/other/leather_horse_armor/stained_umbrella",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/leather_horse_armor/body_drum",
+                "tints": [
+                  {
+                    "type": "minecraft:dye",
+                    "default": -6265536
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/leather_horse_armor/body_drum_left_hand",
+            "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+            ]
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/awning",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/beach_umbrella",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/blinds",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/high_blinds",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/high_curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/left_side_curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/left_side_high_curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/right_side_curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/right_side_high_curtain",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/drum_set",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/flagpole",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/wall_flag",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/lounger",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/lounge_chair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/pool_ball",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 35,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/striped_pool_ball",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 36,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/armor_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/bow_arrow_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/cage_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/cross_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 40,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/diamond_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 41,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/down_arrow_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 42,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/fishing_rod_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 43,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/hammer_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 44,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/hat_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 45,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/heart_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 46,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/left_arrow_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 47,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/line_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 48,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/number_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 49,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/pickaxe_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 50,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/potion_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 51,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/right_arrow_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 52,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/skull_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 53,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/sword_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 54,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/table_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 55,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/up_arrow_sign_glyph",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 56,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/towel_rack",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 57,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/birch_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 58,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/birch_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 59,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/birch_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 60,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/birch_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 61,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/dark_oak_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 62,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/dark_oak_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 63,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/dark_oak_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 64,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/dark_oak_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 65,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 66,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 67,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 68,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 69,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/oak_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 70,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/oak_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 71,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/oak_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 72,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/oak_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 73,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/spruce_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 74,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/spruce_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 75,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/spruce_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 76,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/spruce_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 77,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/spruce_chair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 78,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/furniture/decoration_shield",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 79,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/cabinet/enameled_sink",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 80,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 81,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/small_jungle_table",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 82,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_corner",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 83,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_edge",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 84,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_center",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 85,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 86,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 87,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_table_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 88,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/acacia_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 89,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/acacia_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 90,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/acacia_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 91,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/acacia_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 92,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/acacia_chair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 93,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/jungle_chair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 94,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/iron_chair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 95,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/mangrove_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 96,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/mangrove_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 97,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/mangrove_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 98,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/mangrove_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 99,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/iron_couch_left",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 100,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/iron_couch_right",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 101,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/iron_couch_middle",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 102,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ksepsp:item/9_0/furniture/tables/iron_armchair",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/spyglass"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/spyglass/magnifying_glass" }, "threshold": 1 },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/telescope"
+              }
+            },
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/telescope_left_hand"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/telescope_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/binoculars"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/binoculars_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/camera"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/camera_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/lorgnette"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/lorgnette_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/old_bottle"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/old_bottle_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/photocamera"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/photocamera_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/pirate_spyglass"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/pirate_spyglass_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/video_camera"
+              }
+            },
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/spyglass/video_camera_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/spyglass"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/minecart"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/blu_dispenser" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/blu_teleporter" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/red_dispenser" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/red_teleporter" }, "threshold": 4 }
+    ]
+  }
+}

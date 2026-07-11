@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/fishing_rod"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/tools/fishing_rod/lasso_cast"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/tools/fishing_rod/lasso"
+          }
+        }
+      }
+    ]
+  }
+}

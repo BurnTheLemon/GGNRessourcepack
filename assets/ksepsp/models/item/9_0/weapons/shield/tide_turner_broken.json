@@ -1,0 +1,6 @@
+{
+	"parent": "ksepsp:item/source_models/gen_shield",
+	"textures": {
+		"layer0": "ksepsp:item/tide_turner_broken"
+	}
+}

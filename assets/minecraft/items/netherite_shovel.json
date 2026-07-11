@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/netherite_shovel"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/jackhammer" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/plastic_spoon" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/snow_shovel" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/spade_shovel" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/spatula" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/square_shovel" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/trench_shovel" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/shovel/trowel" }, "threshold": 8 }
+    ]
+  }
+}

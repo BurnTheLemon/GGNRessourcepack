@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/arrow"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/bullet_and_gunpowder" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/cartridge" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/paper_cartridge" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/flamethrower_fuel" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/fusion_cell" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/nail" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/pipe_grenade" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/rifle_cartridge" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/shotgun_shell" }, "threshold": 9 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/arrow/salt" }, "threshold": 10 }
+    ]
+  }
+}

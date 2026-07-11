@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/stick"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/skateboard" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/cruiser" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/longboard" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/trashed_skateboard" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/crutch" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/double_bass" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/drumstick" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/hobbyhorse" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/old_umbrella" }, "threshold": 9 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/pirate_bipod" }, "threshold": 10 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/rolled_up_old_umbrella" }, "threshold": 11 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/rolled_up_umbrella" }, "threshold": 12 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/skeleton_hobbyhorse" }, "threshold": 13 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/skull_walking_cane" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/tropical_umbrella" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/umbrella" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/violin" }, "threshold": 17 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/walking_cane" }, "threshold": 18 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/stick/zombie_hobbyhorse" }, "threshold": 19 }
+    ]
+  }
+}

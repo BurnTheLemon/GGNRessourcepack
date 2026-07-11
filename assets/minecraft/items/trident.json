@@ -1,0 +1,115 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/trident"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:use_duration",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/throwing_knife_pulling_0"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/throwing_knife_pulling_1"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/throwing_knife_pulling_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/trident/throwing_knife"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:use_duration",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/sandman_pulling_0"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/sandman_pulling_1"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/sandman_pulling_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/trident/sandman"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:use_duration",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/casey_jones_pulling_0"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/casey_jones_pulling_1"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/trident/casey_jones_pulling_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/trident/casey_jones"
+          }
+        }
+      }
+    ]
+  }
+}

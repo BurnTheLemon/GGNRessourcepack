@@ -1,0 +1,54 @@
+{
+  "layers": {
+    "camel_husk_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "camel_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "donkey_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "horse_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "mule_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "nautilus_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "pig_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "skeleton_horse_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "strider_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ],
+    "zombie_horse_saddle": [
+      {
+        "texture": "minecraft:nosaddle"
+      }
+    ]
+  }
+}

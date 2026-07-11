@@ -1,0 +1,75 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ksepsp:item/pack_of_cigarettes"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 4],
+			"to": [9.5, 11, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 8, 5.5, 13.5], "texture": "#0"},
+				"east": {"uv": [0, 8, 4, 13.5], "texture": "#0"},
+				"west": {"uv": [4, 8, 0, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 11, 4],
+			"to": [9.5, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 1.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 13.5, 5.5, 8], "texture": "#0"},
+				"east": {"uv": [0, 13.5, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 13.5, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 1, 4],
+			"to": [9.5, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 0.5, 8]},
+			"faces": {
+				"south": {"uv": [9.5, 9.5, 11, 5], "texture": "#0"},
+				"up": {"uv": [9.5, 9.5, 6, 11], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 9.5, 9.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, -10, 0],
+			"translation": [-1.5, 1.25, 4.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, -10, 0],
+			"translation": [-1.5, 1.25, 4.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-39, -35, 5],
+			"translation": [-1.5, 1.5, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-39, -35, 5],
+			"translation": [-1.5, 1.5, 1.25]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [-2.5, 0, 0]
+		},
+		"gui": {
+			"rotation": [35, -135, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [1.05, 1.05, 1.05]
+		},
+		"head": {
+			"translation": [0, 19.2, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 6, -1.02],
+			"scale": [1.999, 1.999, 1.999]
+		}
+	},
+	"credits": "diamondworld.pro | vk.com/NyashMyash99 & vk.com/Foghost"
+}

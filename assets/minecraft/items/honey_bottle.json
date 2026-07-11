@@ -1,0 +1,376 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/honey_bottle"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/cola"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/cola_item"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/quantum_cola"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/quantum_cola_item"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/kvass"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/kvass_item"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/kissel"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/kissel_item"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/sarsaparilla"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/sarsaparilla_item"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/strawberry_milkshake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/strawberry_milkshake_item"
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/chocolate_milkshake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/chocolate_milkshake_item"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/vanilla_milkshake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/vanilla_milkshake_item"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/banana_milkshake"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/banana_milkshake_item"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/blood"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/blood_item"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/soda"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/soda_item"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/mors"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/mors_item"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/food/honey_bottle/tea_mushroom"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/food/honey_bottle/tea_mushroom_item"
+          }
+        }
+      },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/acacia_honey" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/buckwheat_honey" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/dead_bees_honey" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/eucalyptus_honey" }, "threshold": 17 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/fall_honey" }, "threshold": 18 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/fireweed_honey" }, "threshold": 19 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/honey_pot" }, "threshold": 20 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/lime_honey" }, "threshold": 21 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/propolis_honey" }, "threshold": 22 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/raspberry_jam" }, "threshold": 23 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/spring_honey" }, "threshold": 24 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/honey_bottle/summer_honey" }, "threshold": 25 }
+    ]
+  }
+}

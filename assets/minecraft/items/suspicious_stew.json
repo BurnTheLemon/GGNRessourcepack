@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/suspicious_stew"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/food/suspicious_stew/apples_in_chicken_broth" }, "threshold": 1 }
+    ]
+  }
+}

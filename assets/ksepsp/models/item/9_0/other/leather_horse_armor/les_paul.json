@@ -1,0 +1,7 @@
+{
+	"parent": "ksepsp:item/9_0/other/leather_horse_armor/electric_guitar",
+	"textures": {
+		"layer0": "ksepsp:item/les_paul_overlay",
+		"layer1": "ksepsp:item/les_paul"
+	}
+}

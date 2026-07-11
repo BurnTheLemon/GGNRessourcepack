@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "ksepsp:item/pack_of_cigarettes_item_open_front"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 0, 1]
+		}
+	}
+}

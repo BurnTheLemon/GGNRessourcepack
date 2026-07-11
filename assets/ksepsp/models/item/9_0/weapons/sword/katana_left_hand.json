@@ -1,0 +1,6 @@
+{
+	"parent": "ksepsp:item/source_models/4xhand",
+	"textures": {
+		"layer0": "ksepsp:item/katana_left_hand"
+	}
+}

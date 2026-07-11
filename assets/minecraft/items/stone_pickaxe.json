@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/stone_pickaxe"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/stone_hammer" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/anchor" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/cooper_anchor" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/encrusted_anchor" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/lost_anchor" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/bone_pickaxe" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/chisel" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/smithing_chisel" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/construction_hammer" }, "threshold": 9 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/big_dig" }, "threshold": 10 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/drill" }, "threshold": 11 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/entrenching_tool" }, "threshold": 12 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/file" }, "threshold": 13 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/infested_pickaxe" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/laser_drill" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/mountaineer_pick" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/plastic_fork" }, "threshold": 17 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/screwdriver" }, "threshold": 18 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/sledgehammer" }, "threshold": 19 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/smithing_hammer" }, "threshold": 20 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/thaw" }, "threshold": 21 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/tools/pickaxe/equalizer" }, "threshold": 22 }
+    ]
+  }
+}

@@ -18,25 +18,502 @@
                 "threshold": 0.65,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/bow/bonebow3"
+                  "model": "ksepsp:item/9_0/weapons/bow/assault_rifle/famas_pulling_1"
                 }
               },
               {
                 "threshold": 0.9,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/bow/bonebow4"
+                  "model": "ksepsp:item/9_0/weapons/bow/assault_rifle/famas_pulling_2"
                 }
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "minecraft:item/bow/bonebow2"
+              "model": "ksepsp:item/9_0/weapons/bow/assault_rifle/famas_pulling_0"
             }
           },
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/bow/bonebow1"
+            "model": "ksepsp:item/9_0/weapons/bow/assault_rifle/famas"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/weapons/bow/electric_weapon/gauss_gun_pulling_0"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/weapons/bow/electric_weapon/gauss_gun_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/9_0/weapons/bow/electric_weapon/gauss_gun_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/bow/electric_weapon/gauss_gun"
+          }
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/pistol/makarov_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/pistol/makarov_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/pistol/makarov_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/pistol/makarov"
+          }
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/pistol/usp_pulling"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/pistol/usp"
+          }
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/gvozd_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/gvozd_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/gvozd_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/gvozd"
+          }
+        }
+      },
+      {
+        "threshold": 40,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/drel_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/drel_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/drel_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/drel"
+          }
+        }
+      },
+      {
+        "threshold": 41,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/short_circuit_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/short_circuit_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/short_circuit_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/electric_weapon/short_circuit"
+          }
+        }
+      },
+      {
+        "threshold": 42,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/smg_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/smg_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/smg_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/smg"
+          }
+        }
+      },
+      {
+        "threshold": 43,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/bloods_pulling"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/bloods"
+          }
+        }
+      },
+      {
+        "threshold": 44,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/overdose_pulling"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/overdose"
+          }
+        }
+      },
+      {
+        "threshold": 45,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/syr_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/syr_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/syr_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/syr"
+          }
+        }
+      },
+      {
+        "threshold": 46,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/moneaona_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/moneaona_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/moneaona_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/moneaona"
+          }
+        }
+      },
+      {
+        "threshold": 47,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/monenineoseven_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/monenineoseven_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/monenineoseven_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/monenineoseven"
+          }
+        }
+      },
+      {
+        "threshold": 48,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/tommy_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/tommy_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/tommy_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/tommy"
+          }
+        }
+      },
+      {
+        "threshold": 49,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/mac10_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/mac10_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/mac10_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/submachine_gun/mac10"
+          }
+        }
+      },
+      {
+        "threshold": 50,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/assault_rifle/wx18n_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/8_0/weapons/bow/assault_rifle/wx18n_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ksepsp:item/8_0/weapons/bow/assault_rifle/wx18n_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/8_0/weapons/bow/assault_rifle/wx18n"
           }
         }
       }

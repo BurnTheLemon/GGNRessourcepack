@@ -1,0 +1,27 @@
+{
+	"texture_size": [800, 500],
+	"textures": {
+		"0": "ksepsp:item/old/consequence",
+		"particle": "ksepsp:item/old/consequence"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-8.75, 11, 5.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-9.25, 11, 5.85]
+		}
+	}
+}

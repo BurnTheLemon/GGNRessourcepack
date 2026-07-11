@@ -1,0 +1,213 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/totem_of_undying"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/apocalyptic_tire" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/balloonicorn" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/bills_eye" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/copper_cup" }, "threshold": 4 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/death_ringer" }, "threshold": 5 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/enchanted_walking_stick" }, "threshold": 6 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/epaulette" }, "threshold": 7 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/flying_buddy" }, "threshold": 8 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/gold_trophy" }, "threshold": 9 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/golden_battery" }, "threshold": 10 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/golden_cup" }, "threshold": 11 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/golden_guitar_pick" }, "threshold": 12 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/golden_horseshoe" }, "threshold": 13 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/interuniverse_watch" }, "threshold": 14 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/iron_cross" }, "threshold": 15 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/iron_cup" }, "threshold": 16 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/netherite_mitten" }, "threshold": 17 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/piglin_shield" }, "threshold": 18 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/platinum_chip" }, "threshold": 19 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/police_badge" }, "threshold": 20 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/pocket_watch" }, "threshold": 21 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/prayer_card" }, "threshold": 22 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/reanimator" }, "threshold": 23 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/scapular" }, "threshold": 24 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/small_watch" }, "threshold": 25 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/terracotta_ankh" }, "threshold": 26 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/unchangeable_quarter" }, "threshold": 27 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/other/totem_of_undying/watch" }, "threshold": 28 },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:local_time",
+          "pattern": "HH:mm:ss",
+          "cases": [
+            {
+              "when": "03:00:00",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "firstperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "ksepsp:item/9_0/other/totem_of_undying/red_mercury_special"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/other/totem_of_undying/red_mercury"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/red_mercury"
+          }
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/totem_of_undying/aglet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/aglet_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/totem_of_undying/enchanted_mantle"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/enchanted_mantle_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/totem_of_undying/fairweather_gauntlet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/fairweather_gauntlet_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/totem_of_undying/nanomachines"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/nanomachines_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/other/totem_of_undying/pip_boy"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/other/totem_of_undying/pip_boy_left_hand"
+          }
+        }
+      }
+    ]
+  }
+}

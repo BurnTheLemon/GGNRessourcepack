@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ksepsp:item/jar",
+        "layer1": "ksepsp:item/jar_overlay"
+    }
+}

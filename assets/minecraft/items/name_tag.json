@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/name_tag"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/blu_sentry2" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/blu_sentry3" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/red_sentry2" }, "threshold": 3 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/8_0/furniture/engineer_build/red_sentry3" }, "threshold": 4 }
+    ]
+  }
+}

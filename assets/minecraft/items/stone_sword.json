@@ -1,0 +1,898 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/stone_sword"
+    },
+    "entries": [
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/stone_dagger" }, "threshold": 1 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/frying_pan" }, "threshold": 2 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/wrench" }, "threshold": 3 },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "head",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/flail"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/flail_item"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "ground",
+                "head",
+                "fixed",
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/mace"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/mace_item"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/fist_of_steel"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/fist_of_steel_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/icicle"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/icicle_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/sharp_razor"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/sharp_razor_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/warrior_gauntlet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/warrior_gauntlet_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/gunslinger"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/gunslinger_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/electroshock_baton"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/electroshock_baton_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/police_baton"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/police_baton_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/swordstick"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/swordstick_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/blue_lightsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightsaber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/green_lightsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightsaber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/red_lightsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightsaber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/violet_lightsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightsaber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/yellow_lightsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightsaber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/lightstaff"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/lightstaff_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/cossack_saber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/cossack_saber_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/hot_hand"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/hot_hand_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/blue_boxing_glove"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/blue_boxing_glove_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/red_boxing_glove"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/red_boxing_glove_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/katana"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/katana_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/murasama"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/murasama_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/butterfly_knife"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/butterfly_knife_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/flip_knife"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/flip_knife_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand",
+                "gui",
+                "head",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/kunai"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/kunai_left_hand"
+          }
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:damage",
+          "entries": [
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/broken_bottle1"
+              }
+            },
+            {
+              "threshold": 0.25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/broken_bottle2"
+              }
+            },
+            {
+              "threshold": 0.5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/broken_bottle3"
+              }
+            },
+            {
+              "threshold": 0.75,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/broken_bottle4"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/broken_bottle"
+          }
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:damage",
+          "entries": [
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/uber_syringe1"
+              }
+            },
+            {
+              "threshold": 0.25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/uber_syringe2"
+              }
+            },
+            {
+              "threshold": 0.5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/uber_syringe3"
+              }
+            },
+            {
+              "threshold": 0.75,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/uber_syringe4"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/uber_syringe"
+          }
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:damage",
+          "entries": [
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/golden_mirror_cracked"
+              }
+            },
+            {
+              "threshold": 0.49,
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:selected",
+                "on_true": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:keybind_down",
+                  "keybind": "key.attack",
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/sword/golden_mirror_broken_using"
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "ksepsp:item/9_0/weapons/sword/golden_mirror_broken"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "ksepsp:item/9_0/weapons/sword/golden_mirror_broken"
+                }
+              }
+            },
+            {
+              "threshold": 0.5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/weapons/sword/golden_mirror_broken"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ksepsp:item/9_0/weapons/sword/golden_mirror"
+          }
+        }
+      },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/aluminium_baseball_bat" }, "threshold": 32 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/baseball_bat" }, "threshold": 33 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/baseball_bat_with_nails" }, "threshold": 34 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/club" }, "threshold": 35 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/stone_club" }, "threshold": 36 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/trench_club" }, "threshold": 37 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/back_scratcher" }, "threshold": 38 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bamboo_staff" }, "threshold": 39 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/battlestaff" }, "threshold": 40 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bo" }, "threshold": 41 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/candy_cane" }, "threshold": 42 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/mop" }, "threshold": 43 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/pool_cue" }, "threshold": 44 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/battle_sickle" }, "threshold": 45 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bio_blade" }, "threshold": 46 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/boneyard" }, "threshold": 47 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bone_sword" }, "threshold": 48 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/brass_knuckles" }, "threshold": 49 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/buzzy_nest" }, "threshold": 50 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/claymore" }, "threshold": 51 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/cleaver" }, "threshold": 52 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/coal_iron" }, "threshold": 53 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/coiled_sword" }, "threshold": 54 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/crowbar" }, "threshold": 55 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/double_blade_sword" }, "threshold": 56 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/fan_o_war" }, "threshold": 57 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/fighter_wraps" }, "threshold": 58 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/flamberge" }, "threshold": 59 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/gladius" }, "threshold": 60 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/glaive" }, "threshold": 61 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/sacred_glaive" }, "threshold": 62 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/golem_fist" }, "threshold": 63 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/golf_club" }, "threshold": 64 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/guitar_pick" }, "threshold": 65 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/ham_bat" }, "threshold": 66 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/heartstealer" }, "threshold": 67 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/heated_knife" }, "threshold": 68 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/hedgehog_stick" }, "threshold": 69 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/hockey_stick" }, "threshold": 70 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/jousting_lance" }, "threshold": 71 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/muramasa" }, "threshold": 72 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bayonet" }, "threshold": 73 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/bowie_knife" }, "threshold": 74 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/karambit" }, "threshold": 75 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/kitchen_knife" }, "threshold": 76 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/surgical_knife" }, "threshold": 77 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/your_eternal_reward" }, "threshold": 78 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/ladle" }, "threshold": 79 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/lead_pipe" }, "threshold": 80 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/machete" }, "threshold": 81 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/mantis_blades" }, "threshold": 82 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/pirate_hook" }, "threshold": 83 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/plastic_knife" }, "threshold": 84 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/pufferfist" }, "threshold": 85 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/rapire" }, "threshold": 86 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/rolling_pin" }, "threshold": 87 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/cutlass" }, "threshold": 88 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/salmon" }, "threshold": 89 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/sawblade" }, "threshold": 90 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/exotic_scimitar" }, "threshold": 91 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/scimitar" }, "threshold": 92 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/tempest_knife" }, "threshold": 93 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/violin_bow" }, "threshold": 94 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/whip" }, "threshold": 95 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/tiger_paw" }, "threshold": 96 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/pipe_wrench" }, "threshold": 97 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/southern_hospitality" }, "threshold": 98 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/zweihander" }, "threshold": 99 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/conscientious_objector" }, "threshold": 100 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/eviction_notice" }, "threshold": 101 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/claw_fist" }, "threshold": 102 },
+      { "model": { "type": "minecraft:model", "model": "ksepsp:item/9_0/weapons/sword/glass_shard" }, "threshold": 103 }
+    ]
+  }
+}

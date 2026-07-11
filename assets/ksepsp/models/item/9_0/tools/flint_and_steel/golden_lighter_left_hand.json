@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "ksepsp:item/golden_lighter_left_hand"
+	}
+}
